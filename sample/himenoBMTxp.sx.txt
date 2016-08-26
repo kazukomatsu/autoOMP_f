@@ -1,0 +1,40 @@
+sxmpif90 -Pauto -Chopt -R2 -Wf-L fmtlist objlist  himenoBMTxp_noworkshare.f90 -o hime_nows.exe
+himenoBMTxp_noworkshare.f90:
+
+f90: mul(10): himenoBMTxp_noworkshare.f90, line 244: 
+                                       Parallel routine generated : initmt$1
+f90: mul(1): himenoBMTxp_noworkshare.f90, line 244: 
+                                       Parallelized by PARDO.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 246: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 246: 
+                                       Vectorized loop.
+f90: mul(1): himenoBMTxp_noworkshare.f90, line 272: 
+                                       Parallelized by PARDO.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 274: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 274: 
+                                       Vectorized loop.
+f90: himenoBMTxp_noworkshare.f90, initmt: There are 7 diagnoses.
+
+f90: mul(10): himenoBMTxp_noworkshare.f90, line 335: 
+                                       Parallel routine generated : jacobi$1
+f90: mul(1): himenoBMTxp_noworkshare.f90, line 335: 
+                                       Parallelized by PARDO.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 337: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 337: 
+                                       Vectorized loop.
+f90: mul(4): himenoBMTxp_noworkshare.f90, line 351: 
+                                       CRITICAL section.
+f90: mul(1): himenoBMTxp_noworkshare.f90, line 359: 
+                                       Parallelized by PARDO.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 361: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 361: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 361: 
+                                       Vectorized loop.
+f90: vec(1): himenoBMTxp_noworkshare.f90, line 361: 
+                                       Vectorized loop.
+f90: himenoBMTxp_noworkshare.f90, jacobi: There are 10 diagnoses.
